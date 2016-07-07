@@ -1,4 +1,4 @@
 all:
-	gcc -Wall -o programa programa.c
+	gcc -Wall -o main main.c
 clean:
-	rm -f *.o
+	rm -f *.o main
